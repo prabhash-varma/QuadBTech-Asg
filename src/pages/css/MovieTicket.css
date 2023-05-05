@@ -1,0 +1,19 @@
+input{
+    width: 210px;
+    font-size: 14px;
+    border:"1px solid black";
+    margin-left:10px;
+}
+
+form{
+    width:400px;
+    border-radius:15px;
+}
+
+
+
+.formlabel{
+    font-size: 14px;
+    font-weight: bold;
+    text-align: left;
+}
