@@ -27,13 +27,13 @@ function Summary() {
                 <h1>Summary</h1>
             </div>
             <hr></hr>
-            <div>
+            <div >
 
-                <div>
+                <div >
 
                     {summary.show === undefined ? <div>loading...</div> :
 
-                        <div style={{ display: 'flex'}}>
+                        <div className="summarycont" style={{ display: 'flex'}}>
                             <div style={{ width: "800px", marginLeft: "200px" }}>
                                 <div style={{ display: 'flex' }}><h3>Show Name:</h3> <p style={{ fontSize: "19px", marginLeft: "10px" }}>{summary.show.name==null ? " NA": summary.show.name}</p></div>
                                 <div style={{ display: 'flex' }}><h3>Type:</h3> <p style={{ fontSize: "19px", marginLeft: "10px" }}>{summary.show.type==null ? " NA": summary.show.type}</p></div>

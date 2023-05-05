@@ -43,3 +43,29 @@ td{
     padding: 10px;
 
 }
+
+
+
+/*#  media query for table */
+@media screen and (max-width: 600px){
+
+    .tableclass{
+        width:380px;
+    }
+
+    
+   
+   tr{
+        font-size: 8px;
+      
+   }
+
+   td{
+    font-size: 8px;
+   }
+
+
+   th{
+    font-size: 8px;
+   }
+}

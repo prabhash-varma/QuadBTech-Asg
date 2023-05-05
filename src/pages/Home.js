@@ -50,7 +50,7 @@ useEffect(()=>{
             <input style={{border:"1px solid black"}} type="text" onChange={(e)=>{setSearch(e.target.value)}} placeholder="🔍︎ Search your favorite show"/>
             {/* <div style={{height:"20px",width:"20px"}}>🔍︎</div> */}
         </div>
-            <div>
+            <div classname="tableclass">
             {/*Table */}
             <table className="table">
                 <thead>
